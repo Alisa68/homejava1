@@ -1,0 +1,465 @@
+2021-11-24 10:07:13,454 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-11-24 10:07:13,458 [      4]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/zsh -l -i -c '/Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/bin/printenv' '/var/folders/2z/wsjsg4s95ksc5dq59d05qnd40000gn/T/intellij-shell-env.17455597945553594522.tmp' 
+2021-11-24 10:07:13,493 [     39]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-212.5457.46, 12 Oct 2021 16:22) 
+2021-11-24 10:07:13,497 [     43]   INFO -        #com.intellij.idea.Main - OS: Mac OS X (11.6, aarch64) 
+2021-11-24 10:07:13,504 [     50]   INFO -        #com.intellij.idea.Main - JRE: 11.0.12+7-b1504.40 (JetBrains s.r.o.) 
+2021-11-24 10:07:13,505 [     51]   INFO -        #com.intellij.idea.Main - JVM: 11.0.12+7-b1504.40 (OpenJDK 64-Bit Server VM) 
+2021-11-24 10:07:13,519 [     65]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (14 vars) 
+2021-11-24 10:07:13,521 [     67]   INFO -        #com.intellij.idea.Main - JVM Args: -XX:ReservedCodeCacheSize=512m -Xms128m -Xmx750m -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -Dsun.io.useCanonCaches=false -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -XX:ErrorFile=/Users/elena/java_error_in_idea_%p.log -XX:HeapDumpPath=/Users/elena/java_error_in_idea.hprof -Dide.no.platform.update=true -Dtoolbox.notification.token=FvfaMdPEG1VBdgtqZErHvXVz-f8DQHcEHIWZms5DYdg= -Dtoolbox.notification.portFile=/Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app.vmoptions.port -Didea.plugins.path=/Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app.plugins -Djb.vmOptionsFile=/Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app.vmoptions -Dsplash=true -Didea.home.path=/Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents -Didea.jre.check=true -Didea.executable=idea -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.platform.prefix=Idea -Didea.paths.selector=IdeaIC2021.2 -Didea.vendor.name=JetBrains 
+2021-11-24 10:07:13,521 [     67]   INFO -        #com.intellij.idea.Main - library path: /Users/elena/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. 
+2021-11-24 10:07:13,522 [     68]   INFO -        #com.intellij.idea.Main - boot library path: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home/lib 
+2021-11-24 10:07:13,545 [     91]   INFO - .intellij.util.EnvironmentUtil - LC_CTYPE=ru_RU.UTF-8 
+2021-11-24 10:07:13,552 [     98]   INFO -        #com.intellij.idea.Main - locale=ru_RU JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/Users/elena/Library/Application Support/JetBrains/IdeaIC2021.2
+  idea.system.path=/Users/elena/Library/Caches/JetBrains/IdeaIC2021.2
+  idea.plugins.path=/Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app.plugins
+  idea.log.path=/Users/elena/Library/Logs/JetBrains/IdeaIC2021.2 
+2021-11-24 10:07:13,558 [    104]   INFO -        #com.intellij.idea.Main - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@3f1507fb[Running, parallelism = 7, size = 7, active = 3, running = 3, steals = 2, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@4bed3cd5 
+2021-11-24 10:07:13,683 [    229]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 125 ms 
+2021-11-24 10:07:21,604 [   8150]   INFO -        #com.intellij.idea.Main - Importing configs to /Users/elena/Library/Application Support/JetBrains/IdeaIC2021.2 
+2021-11-24 10:07:21,608 [   8154]   INFO -        #com.intellij.idea.Main - No configs imported, starting with clean configs at /Users/elena/Library/Application Support/JetBrains/IdeaIC2021.2 
+2021-11-24 10:07:21,689 [   8235]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/Groovy, version=212.5457.46, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-groovy.xml 
+2021-11-24 10:07:21,690 [   8236]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/Groovy, version=212.5457.46, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-detection-groovy.xml 
+2021-11-24 10:07:22,034 [   8580]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (212.5457.46), JetBrains maven model api classes (212.5457.46), JetBrains Repository Search (212.5457.46), XPathView + XSLT (212.5457.46), Mercurial (212.5457.46), IDE Features Trainer (212.5457.46), macOS Light Theme (212.5457.46), Terminal (212.5457.46), Git (212.5457.46), Perforce Helix Core (212.5457.46), YAML (212.5457.46), Settings Repository (212.5457.46), Machine Learning Code Completion (212.5457.46), XSLT Debugger (212.5457.46), Smali Support (212.5457.46), Subversion (212.5457.46), Dependency Management Api for External Build Tools (212.5457.46), ChangeReminder (212.5457.46), IDE Features Trainer: Git Lessons (212.5457.46), WebP Support (212.5457.46), Configuration Script (212.5457.46), EditorConfig (212.5457.46), Copyright (212.5457.46), Shell Script (212.5457.46), Images (212.5457.46), Java (212.5457.46), Java Bytecode Decompiler (212.5457.46), JUnit (212.5457.46), Bytecode Viewer (212.5457.46), Eclipse Interoperability (212.5457.46), Java Stream Debugger (212.5457.46), Java IDE Customization (212.5457.46), Lombok (212.5457.46), Shared Indexes (212.5457.46), IntelliLang (212.5457.46), TestNG (212.5457.46), Code Coverage for Java (212.5457.46), Task Management (212.5457.46), Markdown (212.5457.46), GitHub (212.5457.46), Properties (212.5457.46), Gradle (212.5457.46), JavaFX (212.5457.46), Grazie (212.5457.46), Java Internationalization (212.5457.46), UI Designer (212.5457.46), Ant (212.5457.46), Groovy (212.5457.46), Maven (212.5457.46), Gradle-Java (212.5457.46), Plugin DevKit (212.5457.46), Gradle-Maven (212.5457.46), TextMate Bundles (212.5457.46), WSL File System Support (212.5457.46), Kotlin (212-1.5.10-release-IJ5457.46), Space (212.5457.46), Gradle DSL API (212.5457.46), Gradle Dependency Updater Implementation (212.5457.46), Android (10.4.2.212.5457.46), Package Search (212.5457.46), Code With Me (212.5457.46), JetBrains Marketplace Licensing Support (212.5457.46) 
+2021-11-24 10:07:23,402 [   9948]   INFO - eventLog.EventLogConfiguration - Generating new salt for FUS 
+2021-11-24 10:07:23,407 [   9953]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2021-11-24 10:07:23,469 [  10015]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-11-24 10:07:23,477 [  10023]   INFO - ication.options.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/Users/elena/.m2/repository, KOTLIN_BUNDLED=/Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/Kotlin/kotlinc} 
+2021-11-24 10:07:23,480 [  10026]   INFO - rsistent.PersistentFSConnector - Marking VFS as corrupted: '/Users/elena/Library/Caches/JetBrains/IdeaIC2021.2/caches/names.dat' does not exist 
+2021-11-24 10:07:23,489 [  10035]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=732 
+2021-11-24 10:07:23,516 [  10062]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-11-24 10:07:23,537 [  10083]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2021-11-24 10:07:23,537 [  10083]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2021-11-24 10:07:23,591 [  10137]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2021-11-24 10:07:23,636 [  10182]   INFO - m.intellij.ui.mac.touchbar.NST - nst library works properly, successfully created and released native touchbar object 
+2021-11-24 10:07:23,642 [  10188]   INFO - i.mac.touchbar.TouchbarSupport - touchbar support is enabled 
+2021-11-24 10:07:23,846 [  10392]   INFO - impl.SharedIndexInfrastructure - Shared index version updated from -1 to 7 
+2021-11-24 10:07:23,854 [  10400]   INFO - impl.SharedIndexInfrastructure - Shared index persistent data has been cleared 
+2021-11-24 10:07:23,873 [  10419]   INFO - impl.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty 
+2021-11-24 10:07:23,875 [  10421]   INFO - stubs.SerializationManagerImpl - Name storage is repaired 
+2021-11-24 10:07:23,881 [  10427]   INFO - impl.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty 
+2021-11-24 10:07:23,882 [  10428]   INFO - impl.SharedIndexInfrastructure - Shared index persistent data has been cleared 
+2021-11-24 10:07:24,099 [  10645]   WARN - l.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@287f53b8). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=~/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/cwm-plugin, version=212.5457.46, package=null) 
+2021-11-24 10:07:24,622 [  11168]   INFO - il.indexing.FileBasedIndexImpl - Indexes to be rebuilt after corruption:FilenameIndex(v = 3),FrameworkDetectionIndex(v = 65536),TodoIndex(v = 4107),IdIndex(v = 4113),filetypes(v = 258),Stubs(v = 46),Trigram.Index(v = 4099),fileIncludes(v = 6),DomFileIndex(v = 0),RelaxSymbolIndex(v = 0),XmlTagNames(v = 1),XmlNamespaces(v = 8),html5.custom.attributes.index(v = 1),SchemaTypeInheritance(v = 2),json.file.root.values(v = 5),XsltSymbolIndex(v = 0),yaml.keys.name(v = 1),editorconfig.index.name(v = 5),bytecodeAnalysis(v = 4107),java.auto.module.name(v = 5),java.source.module.name(v = 3),java.null.method.argument(v = 4097),java.fun.expression(v = 4102),java.binary.plus.expression(v = 4100),LombokConfigIndex(v = 11),xmlProperties(v = 2),JavaFxControllerClassIndex(v = 1),javafx.id.name(v = 3),javafx.custom.component(v = 2),com.intellij.uiDesigner.FormClassIndex(v = 0),ant-imports(v = 5),groovy.trait.fields(v = 5),groovy.trait.methods(v = 32),IdeaPluginRegistrationIndex(v = 3),PluginIdModuleIndex(v = 2),PluginIdDependenciesIndex(v = 5),devkit.ExtensionPointIndex(v = 0),devkit.ExtensionPointClassIndex(v = 1),org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex(v = 5),org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex(v = 4),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex(v = 5),org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex(v = 2),org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex(v = 4),com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME(v = 10),BindingXmlIndex(v = 8),MlModelFileIndex(v = 6),NavXmlIndex(v = 8) 
+2021-11-24 10:07:24,623 [  11169]   INFO - leBasedIndexDataInitialization - Index data initialization done: 1049 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, yaml.keys.name, editorconfig.index.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, LombokConfigIndex, xmlProperties, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, com.intellij.uiDesigner.FormClassIndex, ant-imports, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex]. 
+2021-11-24 10:07:24,686 [  11232]   INFO - tellij.psi.stubs.StubIndexImpl - Following stub indices will be built:dom.namespaceKey(v = 1),dom.elementClass(v = 0),markdown.header(v = 2),properties.index(v = 2),gr.class.fqn(v = 1),gr.script.fqn(v = 2),gr.field.name(v = 2),gr.method.name(v = 2),gr.annot.method.name(v = 2),gr.annot.members(v = 2),gr.script.class(v = 2),gr.class.super(v = 2),gr.anonymous.class(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex(v = 2),java.annotations(v = 2),java.class.extlist(v = 3),java.field.name(v = 2),java.method.name(v = 2),jvm.static.member.name(v = 2),jvm.static.member.type(v = 2),java.anonymous.baseref(v = 2),java.method.parameter.types(v = 3),java.class.shortname(v = 4),java.class.fqn(v = 1),java.module.name(v = 4) 
+2021-11-24 10:07:24,686 [  11232]   INFO - exImpl$StubIndexInitialization - Index data initialization done: 63 ms. Initialized stub indexes: {gr.method.name, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, gr.annot.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, gr.field.name, java.method.parameter.types, dom.namespaceKey, jvm.static.member.type, dom.elementClass, java.class.shortname, java.field.name, gr.class.super, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, gr.anonymous.class, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, gr.script.class, markdown.header, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, java.class.extlist, java.class.fqn, gr.class.fqn, properties.index, java.method.name, jvm.static.member.name, java.annotations, gr.script.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex}. 
+2021-11-24 10:07:25,118 [  11664]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID for 'MarketplaceDownloads' 
+2021-11-24 10:07:25,381 [  11927]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2021-11-24 10:07:25,697 [  12243]   INFO - dea.updater.SdkComponentSource - File /Users/elena/.android/repositories.cfg could not be loaded. 
+2021-11-24 10:07:25,698 [  12244]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2021-11-24 10:07:25,698 [  12244]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2021-11-24 10:07:25,698 [  12244]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2021-11-24 10:07:25,699 [  12245]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2021-11-24 10:07:25,699 [  12245]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google-tv/sys-img2-1.xml 
+2021-11-24 10:07:25,699 [  12245]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_atd/sys-img2-1.xml 
+2021-11-24 10:07:25,699 [  12245]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2021-11-24 10:07:25,699 [  12245]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2021-11-24 10:07:25,699 [  12245]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2021-11-24 10:07:25,699 [  12245]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2021-11-24 10:07:25,699 [  12245]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/aosp_atd/sys-img2-1.xml 
+2021-11-24 10:07:25,699 [  12245]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2021-11-24 10:07:25,700 [  12246]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2021-11-24 10:07:25,700 [  12246]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2021-11-24 10:07:26,201 [  12747]   INFO - System.impl.PopupMenuPreloader - Popup menu 'File' preloaded at 'MainMenu' in 64 ms 
+2021-11-24 10:07:26,432 [  12978]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Help' preloaded at 'MainMenu' in 296 ms 
+2021-11-24 10:08:01,759 [  48305]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, editor.reader.mode, new.large.text.file.viewer, terminal.shell.command.handling, wsl.fsd.content.loader 
+2021-11-24 10:08:02,246 [  48792]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/bin/fsnotifier 
+2021-11-24 10:08:02,257 [  48803]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-11-24 10:08:02,993 [  49539]   INFO - erver.followMe.FollowMeManager - Register new user 0:'elena' with ClientId=ClientId(value=Host) 
+2021-11-24 10:12:31,635 [ 318181]   INFO - BridgeArtifactManagerRedefiner - Using workspace model to open project 
+2021-11-24 10:12:31,650 [ 318196]   INFO - dule.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[JobScheduler FJ pool 2/7,4,main] 
+2021-11-24 10:12:31,658 [ 318204]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-11-24 10:12:31,679 [ 318225]   INFO - tests.impl.DistributedTestHost - Host address=localhost/127.0.0.1 
+2021-11-24 10:12:31,716 [ 318262]   INFO - ins.rd.platform.codeWithMe.a.h - sessionStatus: null 
+2021-11-24 10:12:31,718 [ 318264]   INFO - ins.rd.platform.codeWithMe.a.h - freeSessionRemainingTimeMs: null null 
+2021-11-24 10:12:31,733 [ 318279]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-11-24 10:12:32,447 [ 318993]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 2 millis (read time: 0) 
+2021-11-24 10:12:33,672 [ 320218]   INFO - erver.followMe.FollowMeManager - Register new user 0:'elena' with ClientId=ClientId(value=Host) 
+2021-11-24 10:12:34,116 [ 320662]   INFO - .packagesearch.intellij-plugin - [1, source=INIT] refreshKnownRepositories() — Known repositories refreshed. We know of 7 repo(s). Refreshing data... 
+2021-11-24 10:12:34,322 [ 320868]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost overridden 
+2021-11-24 10:12:34,338 [ 320884]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-11-24 10:12:34,346 [ 320892]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-11-24 10:12:34,351 [ 320897]   INFO - indexing.UnindexedFilesUpdater - Started indexing of IDEA. Reason: On project open 
+2021-11-24 10:12:34,358 [ 320904]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 2050ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish, 1/2 very slow 
+2021-11-24 10:12:34,361 [ 320907]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for IDEA took 9ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-11-24 10:12:34,373 [ 320919]   INFO - indexing.UnindexedFilesUpdater - Scanning of IDEA uses 7 scanning threads 
+2021-11-24 10:12:34,454 [ 321000]   INFO - ication.options.PathMacrosImpl - Saved path macros: {MAVEN_REPOSITORY=/Users/elena/.m2/repository, KOTLIN_BUNDLED=/Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/Kotlin/kotlinc} 
+2021-11-24 10:12:34,722 [ 321268]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3096 ms 
+2021-11-24 10:12:34,939 [ 321485]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 2197 ms 
+2021-11-24 10:12:36,489 [ 323035]   INFO - System.impl.PopupMenuPreloader - Popup menu 'File' preloaded at 'MainMenu' in 4 ms 
+2021-11-24 10:12:36,516 [ 323062]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Edit' preloaded at 'MainMenu' in 31 ms 
+2021-11-24 10:12:36,562 [ 323108]   INFO - ectsystem.ProjectSystemService - DefaultProjectSystem project system has been detected 
+2021-11-24 10:12:36,570 [ 323116]   INFO - System.impl.PopupMenuPreloader - Popup menu 'View' preloaded at 'MainMenu' in 85 ms 
+2021-11-24 10:12:36,597 [ 323143]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Navigate' preloaded at 'MainMenu' in 112 ms 
+2021-11-24 10:12:36,614 [ 323160]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Code' preloaded at 'MainMenu' in 129 ms 
+2021-11-24 10:12:36,659 [ 323205]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Refactor' preloaded at 'MainMenu' in 174 ms 
+2021-11-24 10:12:36,675 [ 323221]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Build' preloaded at 'MainMenu' in 190 ms 
+2021-11-24 10:12:36,716 [ 323262]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Project View Popup Menu' preloaded at 'ProjectViewPopup' in 366 ms 
+2021-11-24 10:12:36,716 [ 323262]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Run' preloaded at 'MainMenu' in 231 ms 
+2021-11-24 10:12:36,765 [ 323311]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Git' preloaded at 'MainMenu' in 280 ms 
+2021-11-24 10:12:36,779 [ 323325]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Tools' preloaded at 'MainMenu' in 294 ms 
+2021-11-24 10:12:36,781 [ 323327]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Window' preloaded at 'MainMenu' in 296 ms 
+2021-11-24 10:12:36,781 [ 323327]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Help' preloaded at 'MainMenu' in 296 ms 
+2021-11-24 10:12:36,864 [ 323410]   INFO - .script.IdeScriptEngineManager - javax.script.ScriptEngineManager initialized in 99 ms 
+2021-11-24 10:12:36,896 [ 323442]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for IDEA. Number of scanned files: 50197; Number of files for indexing: 49870 took 2535ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-11-24 10:12:36,904 [ 323450]   INFO - indexing.UnindexedFilesUpdater - Use 4 indexing threads for indexing of IDEA 
+2021-11-24 10:12:39,764 [ 326310]   INFO - gnostic.MemorySizeConfigurator - Physical memory 16384M, minimum memory size 128M, -Xmx adjusted from 750M to 2048M 
+2021-11-24 10:12:39,827 [ 326373]   INFO - m.codeWithMe.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/Users/elena/Library/Caches/JetBrains' 
+2021-11-24 10:12:39,830 [ 326376]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client system folders to check 
+2021-11-24 10:12:39,831 [ 326377]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client config folders to check 
+2021-11-24 10:12:39,834 [ 326380]   INFO - m.codeWithMe.CodeWithMeCleanup - keep only [] major versions 
+2021-11-24 10:12:47,258 [ 333804]   INFO - indexing.UnindexedFilesUpdater - Finished for IDEA. Unindexed files update took 10358ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-11-24 10:12:47,259 [ 333805]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-11-24 10:12:47,520 [ 334066]   WARN - g.jetbrains.kotlin.idea.script - [KOTLIN_SCRIPTING] extension gradle.kts file type [UNKNOWN] is not registered as Kotlin 
+2021-11-24 10:12:47,520 [ 334066]   WARN - g.jetbrains.kotlin.idea.script - [KOTLIN_SCRIPTING] extension space.kts file type [UNKNOWN] is not registered as Kotlin 
+2021-11-24 10:12:47,520 [ 334066]   WARN - g.jetbrains.kotlin.idea.script - [KOTLIN_SCRIPTING] extension main.kts file type [UNKNOWN] is not registered as Kotlin 
+2021-11-24 10:12:47,520 [ 334066]   WARN - g.jetbrains.kotlin.idea.script - [KOTLIN_SCRIPTING] extensions [gradle.kts, space.kts, main.kts] is about to be registered as Kotlin 
+2021-11-24 10:12:47,522 [ 334068]   INFO - .services.SpaceKtsFileDetector - SpaceKtsFileDetector 
+2021-11-24 10:12:47,594 [ 334140]   INFO - il.indexing.FileBasedIndexImpl - indexes cleared: 
+survived indexes: FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, yaml.keys.name, editorconfig.index.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, LombokConfigIndex, xmlProperties, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, com.intellij.uiDesigner.FormClassIndex, ant-imports, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex 
+2021-11-24 10:12:47,607 [ 334153]   INFO - pl.ProjectRootManagerComponent - Project roots of IDEA have changed (trace_hash = -357152315) 
+java.lang.Throwable
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.logRootChanges(ProjectRootManagerComponent.java:344)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.synchronizeRoots(ProjectRootManagerComponent.java:331)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.fireRootsChangedEvent(ProjectRootManagerComponent.java:238)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.fireRootsChanged(ProjectRootManagerImpl.java:449)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$2.fireRootsChanged(ProjectRootManagerImpl.java:167)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$2.fireRootsChanged(ProjectRootManagerImpl.java:164)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:113)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:121)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent$2.fileTypesChanged(ProjectRootManagerComponent.java:116)
+	at com.intellij.util.messages.impl.MessageBusImpl.invokeMethod(MessageBusImpl.java:645)
+	at com.intellij.util.messages.impl.MessageBusImpl.invokeListener(MessageBusImpl.java:620)
+	at com.intellij.util.messages.impl.MessageBusImpl.deliverMessage(MessageBusImpl.java:417)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpWaitingBuses(MessageBusImpl.java:390)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:372)
+	at com.intellij.util.messages.impl.MessageBusImpl.access$200(MessageBusImpl.java:33)
+	at com.intellij.util.messages.impl.MessageBusImpl$MessagePublisher.invoke(MessageBusImpl.java:179)
+	at com.sun.proxy.$Proxy153.fileTypesChanged(Unknown Source)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.fireFileTypesChanged(FileTypeManagerImpl.java:942)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.fireFileTypesChanged(FileTypeManagerImpl.java:936)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.associate(FileTypeManagerImpl.java:1544)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.associate(FileTypeManagerImpl.java:908)
+	at com.intellij.openapi.fileTypes.FileTypeManager.associateExtension(FileTypeManager.java:153)
+	at org.jetbrains.kotlin.idea.core.script.ScriptDefinitionsManager$UpdateDefinitionsResult$apply$1$$special$$inlined$runWriteAction$1.compute(actions.kt:62)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$runWriteAction$15(ApplicationImpl.java:945)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteActionWithClass(ApplicationImpl.java:924)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:945)
+	at org.jetbrains.kotlin.idea.core.script.ScriptDefinitionsManager$UpdateDefinitionsResult$apply$1.run(ScriptDefinitionsManager.kt:496)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:214)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:196)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:350)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:133)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:885)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:754)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:441)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:825)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:440)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:486)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-11-24 10:12:47,613 [ 334159]   INFO - il.indexing.FileBasedIndexImpl - indexes cleared: 
+survived indexes: FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, yaml.keys.name, editorconfig.index.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, LombokConfigIndex, xmlProperties, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, com.intellij.uiDesigner.FormClassIndex, ant-imports, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex 
+2021-11-24 10:12:47,614 [ 334160]   INFO - pl.ProjectRootManagerComponent - Project roots of IDEA have changed (stacktrace has been already reported with trace_hash = -357152315) 
+2021-11-24 10:12:47,619 [ 334165]   INFO - il.indexing.FileBasedIndexImpl - indexes cleared: 
+survived indexes: FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, yaml.keys.name, editorconfig.index.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, LombokConfigIndex, xmlProperties, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, com.intellij.uiDesigner.FormClassIndex, ant-imports, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex 
+2021-11-24 10:12:47,620 [ 334166]   INFO - pl.ProjectRootManagerComponent - Project roots of IDEA have changed (stacktrace has been already reported with trace_hash = -357152315) 
+2021-11-24 10:12:47,627 [ 334173]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-11-24 10:12:47,631 [ 334177]   INFO - indexing.UnindexedFilesUpdater - Started indexing of IDEA. Reason: Project roots have changed 
+2021-11-24 10:12:47,631 [ 334177]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for IDEA took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-11-24 10:12:47,632 [ 334178]   INFO - indexing.UnindexedFilesUpdater - Scanning of IDEA uses 7 scanning threads 
+2021-11-24 10:12:48,070 [ 334616]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for IDEA. Number of scanned files: 50203; Number of files for indexing: 0 took 438ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-11-24 10:12:48,071 [ 334617]   INFO - indexing.UnindexedFilesUpdater - Finished for IDEA. No files to index with loading content. 
+2021-11-24 10:12:48,071 [ 334617]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-11-24 10:13:17,964 [ 364510]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2021-11-24 10:14:36,720 [ 443266]   INFO - rationStore.ComponentStoreImpl - Saving appDebuggerSettings took 22 ms 
+2021-11-24 10:14:36,750 [ 443296]   INFO - rationStore.ComponentStoreImpl - Saving Project(name=IDEA, containerState=COMPONENT_CREATED, componentStore=/Users/elena/IDEA)RunManager took 15 ms 
+2021-11-24 10:15:03,655 [ 470201]  DEBUG - BackendServerFileEditorManager - Opening host editor for /Users/elena/IDEA/src/Main.java 
+2021-11-24 10:15:08,873 [ 475419]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Editor Popup Menu' preloaded at 'EditorPopup' in 108 ms 
+2021-11-24 10:15:08,874 [ 475420]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Editor Popup Menu' preloaded at 'EditorPopup' in 108 ms 
+2021-11-24 10:15:09,519 [ 476065]   INFO - rationStore.ComponentStoreImpl - Saving Project(name=IDEA, containerState=COMPONENT_CREATED, componentStore=/Users/elena/IDEA)KotlinCommonCompilerArguments took 12 ms 
+2021-11-24 10:40:45,519 [2012065]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Project View Popup Menu' preloaded at 'ProjectViewPopup' in 41 ms 
+2021-11-24 10:42:30,420 [2116966]   INFO - rationStore.ComponentStoreImpl - Saving appPluginFeatureCacheService took 29 ms 
+2021-11-24 10:52:27,840 [2714386]   INFO - .deployment.AsyncDevicesGetter - adb not found 
+2021-11-24 10:52:28,100 [2714646]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-11-24 10:52:29,164 [2715710]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/java/lib/jps-launcher.jar 
+2021-11-24 10:52:30,120 [2716666]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-11-24 10:52:30,121 [2716667]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/Users/elena/Library/Application%20Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ%20IDEA%20CE.app/Contents/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-11-24 10:52:30,121 [2716667]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-11-24 10:52:30,121 [2716667]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-11-24 10:52:30,121 [2716667]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-11-24 10:52:31,971 [2718517]   INFO - pl.ProjectRootManagerComponent - Project roots of IDEA have changed (trace_hash = -1657824184) 
+java.lang.Throwable
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.logRootChanges(ProjectRootManagerComponent.java:344)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.synchronizeRoots(ProjectRootManagerComponent.java:331)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.fireRootsChangedEvent(ProjectRootManagerComponent.java:238)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.fireRootsChanged(ProjectRootManagerImpl.java:449)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:146)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:143)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.lambda$levelDown$0(ProjectRootManagerImpl.java:89)
+	at com.intellij.openapi.application.WriteAction.lambda$run$1(WriteAction.java:94)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteActionWithClass(ApplicationImpl.java:924)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:950)
+	at com.intellij.openapi.application.WriteAction.run(WriteAction.java:93)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.levelDown(ProjectRootManagerImpl.java:89)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent$AppListener.writeActionFinished(ProjectRootManagerComponent.java:397)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.intellij.util.EventDispatcher.dispatchVoidMethod(EventDispatcher.java:120)
+	at com.intellij.util.EventDispatcher.lambda$createMulticaster$1(EventDispatcher.java:85)
+	at com.sun.proxy.$Proxy81.writeActionFinished(Unknown Source)
+	at com.intellij.openapi.application.impl.ApplicationImpl.fireWriteActionFinished(ApplicationImpl.java:1322)
+	at com.intellij.openapi.application.impl.ApplicationImpl.endWrite(ApplicationImpl.java:1160)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteActionWithClass(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:950)
+	at com.intellij.openapi.application.WriteAction.run(WriteAction.java:93)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.fireEvents(RefreshSessionImpl.java:198)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.lambda$runAsyncListeners$9(RefreshQueueImpl.java:154)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.lambda$safeTransferToEdt$6(NonBlockingReadActionImpl.java:577)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:214)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:196)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:350)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:133)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:885)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:754)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:441)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:825)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:440)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:486)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-11-24 10:52:31,978 [2718524]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-11-24 10:52:31,981 [2718527]   INFO - indexing.UnindexedFilesUpdater - Started indexing of IDEA. Reason: Project roots have changed 
+2021-11-24 10:52:31,982 [2718528]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for IDEA took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-11-24 10:52:31,983 [2718529]   INFO - indexing.UnindexedFilesUpdater - Scanning of IDEA uses 7 scanning threads 
+2021-11-24 10:52:31,988 [2718534]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 3915 ms: 0 min 3sec 
+2021-11-24 10:52:32,017 [2718563]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for IDEA. Number of scanned files: 50204; Number of files for indexing: 0 took 35ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-11-24 10:52:32,017 [2718563]   INFO - indexing.UnindexedFilesUpdater - Finished for IDEA. No files to index with loading content. 
+2021-11-24 10:52:32,017 [2718563]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-11-24 10:52:32,097 [2718643]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2021-11-24 10:52:32,583 [2719129]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/java/lib/jps-launcher.jar 
+2021-11-24 10:52:33,664 [2720210]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-11-24 10:52:33,664 [2720210]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/Users/elena/Library/Application%20Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ%20IDEA%20CE.app/Contents/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-11-24 10:52:33,664 [2720210]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-11-24 10:52:33,664 [2720210]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-11-24 10:52:33,664 [2720210]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-11-24 10:53:19,751 [2766297]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-11-24 10:53:20,236 [2766782]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/java/lib/jps-launcher.jar 
+2021-11-24 10:53:21,076 [2767622]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-11-24 10:53:21,077 [2767623]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/Users/elena/Library/Application%20Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ%20IDEA%20CE.app/Contents/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-11-24 10:53:21,077 [2767623]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-11-24 10:53:21,077 [2767623]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-11-24 10:53:21,077 [2767623]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-11-24 10:53:22,740 [2769286]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 2993 ms: 0 min 2sec 
+2021-11-24 10:53:22,741 [2769287]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2021-11-24 10:53:23,240 [2769786]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/java/lib/jps-launcher.jar 
+2021-11-24 10:53:24,283 [2770829]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-11-24 10:53:24,283 [2770829]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/Users/elena/Library/Application%20Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ%20IDEA%20CE.app/Contents/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-11-24 10:53:24,283 [2770829]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-11-24 10:53:24,283 [2770829]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-11-24 10:53:24,283 [2770829]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-11-24 10:56:46,154 [2972700]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-11-24 10:56:46,157 [2972703]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile /Users/elena/IDEA 
+2021-11-24 10:56:47,990 [2974536]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1838 ms: 0 min 1sec 
+2021-11-24 10:56:47,991 [2974537]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2021-11-24 10:56:48,471 [2975017]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/java/lib/jps-launcher.jar 
+2021-11-24 10:56:49,507 [2976053]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-11-24 10:56:49,507 [2976053]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/Users/elena/Library/Application%20Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ%20IDEA%20CE.app/Contents/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-11-24 10:56:49,507 [2976053]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-11-24 10:56:49,507 [2976053]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-11-24 10:56:49,507 [2976053]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-11-24 11:10:37,925 [3804471]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-11-24 11:10:37,928 [3804474]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile /Users/elena/IDEA 
+2021-11-24 11:10:39,818 [3806364]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1897 ms: 0 min 1sec 
+2021-11-24 11:10:39,820 [3806366]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2021-11-24 11:10:40,321 [3806867]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/java/lib/jps-launcher.jar 
+2021-11-24 11:10:41,459 [3808005]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-11-24 11:10:41,459 [3808005]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/Users/elena/Library/Application%20Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ%20IDEA%20CE.app/Contents/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-11-24 11:10:41,459 [3808005]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-11-24 11:10:41,459 [3808005]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-11-24 11:10:41,459 [3808005]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-11-24 11:11:42,811 [3869357]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-11-24 11:11:42,814 [3869360]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile /Users/elena/IDEA 
+2021-11-24 11:11:44,542 [3871088]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1732 ms: 0 min 1sec 
+2021-11-24 11:11:44,547 [3871093]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2021-11-24 11:11:45,031 [3871577]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/java/lib/jps-launcher.jar 
+2021-11-24 11:11:46,154 [3872700]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-11-24 11:11:46,155 [3872701]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/Users/elena/Library/Application%20Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ%20IDEA%20CE.app/Contents/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-11-24 11:11:46,155 [3872701]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-11-24 11:11:46,155 [3872701]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-11-24 11:11:46,155 [3872701]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-11-24 11:12:37,632 [3924178]   INFO - .packagesearch.intellij-plugin - [5, source=INIT] refreshKnownRepositories() — Known repositories refreshed. We know of 7 repo(s). Refreshing data... 
+2021-11-24 11:32:33,439 [5119985]  DEBUG - BackendServerFileEditorManager - Opening host editor for /Users/elena/IDEA/report.md 
+2021-11-24 11:32:49,579 [5136125]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Editor Popup Menu' preloaded at 'EditorPopup' in 47 ms 
+2021-11-24 11:32:49,580 [5136126]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Editor Popup Menu' preloaded at 'EditorPopup' in 48 ms 
+2021-11-24 14:05:32,967 [14299513]   INFO - .packagesearch.intellij-plugin - [8, source=INIT] refreshKnownRepositories() — Known repositories refreshed. We know of 7 repo(s). Refreshing data... 
+2021-11-24 14:09:49,115 [14555661]  DEBUG - BackendServerFileEditorManager - Opening host editor for /Users/elena/IDEA/.idea/.gitignore 
+2021-11-24 14:10:01,817 [14568363]   WARN - ent.TerminalArrangementManager - Cannot list files in /Users/elena/Library/Application Support/JetBrains/IdeaIC2021.2/terminal 
+java.nio.file.NoSuchFileException: /Users/elena/Library/Application Support/JetBrains/IdeaIC2021.2/terminal
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:412)
+	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:472)
+	at java.base/java.nio.file.Files.list(Files.java:3774)
+	at org.jetbrains.plugins.terminal.arrangement.TerminalCommandHistoryManager.deleteOldHistoryDir(TerminalCommandHistoryManager.java:118)
+	at org.jetbrains.plugins.terminal.arrangement.TerminalCommandHistoryManager.getCommandHistoryDir(TerminalCommandHistoryManager.java:93)
+	at org.jetbrains.plugins.terminal.arrangement.TerminalCommandHistoryManager.getOrCreateCommandHistoryFile(TerminalCommandHistoryManager.java:43)
+	at org.jetbrains.plugins.terminal.arrangement.TerminalArrangementManager.assignCommandHistoryFile(TerminalArrangementManager.java:93)
+	at org.jetbrains.plugins.terminal.TerminalView.createTerminalContent(TerminalView.java:251)
+	at org.jetbrains.plugins.terminal.TerminalView.createNewTab(TerminalView.java:212)
+	at org.jetbrains.plugins.terminal.TerminalView.createNewSession(TerminalView.java:186)
+	at org.jetbrains.plugins.terminal.TerminalView$1.toolWindowShown(TerminalView.java:120)
+	at com.intellij.util.messages.impl.MessageBusImpl.invokeMethod(MessageBusImpl.java:645)
+	at com.intellij.util.messages.impl.MessageBusImpl.invokeListener(MessageBusImpl.java:620)
+	at com.intellij.util.messages.impl.MessageBusImpl.deliverMessage(MessageBusImpl.java:417)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpWaitingBuses(MessageBusImpl.java:390)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:372)
+	at com.intellij.util.messages.impl.MessageBusImpl.access$200(MessageBusImpl.java:33)
+	at com.intellij.util.messages.impl.MessageBusImpl$MessagePublisher.invoke(MessageBusImpl.java:179)
+	at com.sun.proxy.$Proxy105.toolWindowShown(Unknown Source)
+	at com.intellij.openapi.wm.impl.ToolWindowManagerImpl.fireToolWindowShown(ToolWindowManagerImpl.kt:1691)
+	at com.intellij.openapi.wm.impl.ToolWindowManagerImpl.doShowWindow(ToolWindowManagerImpl.kt:1017)
+	at com.intellij.openapi.wm.impl.ToolWindowManagerImpl.showToolWindowImpl(ToolWindowManagerImpl.kt:962)
+	at com.intellij.openapi.wm.impl.ToolWindowManagerImpl.activateToolWindow(ToolWindowManagerImpl.kt:665)
+	at com.intellij.openapi.wm.impl.ToolWindowManagerImpl.activateToolWindow$default(ToolWindowManagerImpl.kt:643)
+	at com.intellij.openapi.wm.impl.ToolWindowManagerImpl.activated$intellij_platform_ide_impl(ToolWindowManagerImpl.kt:2027)
+	at com.intellij.openapi.wm.impl.StripeButton.lambda$new$0(StripeButton.java:68)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:401)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:270)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6652)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3345)
+	at com.intellij.openapi.wm.impl.StripeButton.processMouseEvent(StripeButton.java:329)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6417)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5027)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4859)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2784)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4859)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:885)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:814)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:751)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:441)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:825)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:440)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:492)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-11-24 14:10:01,823 [14568369]   INFO - .plugins.terminal.TerminalView - Activating Terminal tool window 
+2021-11-24 14:10:02,082 [14568628]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+2021-11-24 14:13:25,345 [14771891]  DEBUG - BackendServerFileEditorManager - Opening host editor for /Users/elena/IDEA/.gitignore 
+2021-11-24 14:13:27,429 [14773975]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Editor Popup Menu' preloaded at 'EditorPopup' in 15 ms 
+2021-11-24 14:13:27,430 [14773976]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Editor Popup Menu' preloaded at 'EditorPopup' in 17 ms 
+2021-11-24 14:14:24,823 [14831369]  DEBUG - BackendServerFileEditorManager - Opening host editor for /Users/elena/IDEA/.gitignore 
+2021-11-24 14:18:50,472 [15097018]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+2021-11-24 14:18:50,510 [15097056]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+2021-11-24 14:19:12,892 [15119438]   INFO - s.roots.VcsRootProblemNotifier - Auto-registered following mappings: [VcsRootError{UNREGISTERED_ROOT - /Users/elena/IDEA}] 
+2021-11-24 14:19:12,894 [15119440]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/Users/elena/IDEA] 
+2021-11-24 14:19:12,927 [15119473]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2021-11-24 14:19:12,949 [15119495]   INFO -  #git4idea.commands.GitHandler - git version 2.15.0 
+2021-11-24 14:19:12,960 [15119506]   INFO - ea.config.GitExecutableManager - Git version for /usr/local/bin/git: 2.15.0.0 (UNIX) 
+2021-11-24 14:19:18,508 [15125054]   INFO -   #git4idea.log.GitLogProvider - Fresh repository: file:///Users/elena/IDEA 
+2021-11-24 14:19:18,524 [15125070]   INFO -   #git4idea.log.GitLogProvider - Fresh repository: file:///Users/elena/IDEA 
+2021-11-24 14:52:37,819 [17124365]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2021-11-24 15:03:51,663 [17798209]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+2021-11-24 15:04:08,733 [17815279]   INFO - System.impl.PopupMenuPreloader - Popup menu '' preloaded at 'StructureViewPopup' in 7 ms 
+2021-11-24 15:04:08,734 [17815280]   INFO - System.impl.PopupMenuPreloader - Popup menu '' preloaded at 'StructureViewPopup' in 8 ms 
+2021-11-24 15:04:17,288 [17823834]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Favorites View Popup Menu' preloaded at 'FavoritesPopup' in 15 ms 
+2021-11-24 15:04:17,290 [17823836]   INFO - System.impl.PopupMenuPreloader - Popup menu 'Favorites View Popup Menu' preloaded at 'FavoritesPopup' in 20 ms 
+2021-11-24 15:05:33,718 [17900264]   INFO - .packagesearch.intellij-plugin - [11, source=INIT] refreshKnownRepositories() — Known repositories refreshed. We know of 7 repo(s). Refreshing data... 
+2021-11-24 15:07:16,833 [18003379]   WARN - com.intellij.util.xmlb.Binding - no accessors for org.jetbrains.idea.perforce.perforce.ConnectionId 
+2021-11-24 15:07:16,838 [18003384]   INFO - ent.TerminalArrangementManager - Deleting [IDEA-history1] (closed sessions) 
+2021-11-24 16:10:27,771 [21794317]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-11-24 16:10:27,773 [21794319]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile /Users/elena/IDEA 
+2021-11-24 16:10:28,838 [21795384]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1070 ms: 0 min 1sec 
+2021-11-24 16:10:28,840 [21795386]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2021-11-24 16:10:28,887 [21795433]   INFO - ij.execution.JavaExecutionUtil - Agent jars were copied to /Users/elena/Library/Caches/JetBrains/IdeaIC2021.2/captureAgent 
+2021-11-24 16:10:29,302 [21795848]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/java/lib/jps-launcher.jar 
+2021-11-24 16:10:30,445 [21796991]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-11-24 16:10:30,445 [21796991]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/Users/elena/Library/Application%20Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ%20IDEA%20CE.app/Contents/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-11-24 16:10:30,445 [21796991]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-11-24 16:10:30,445 [21796991]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-11-24 16:10:30,445 [21796991]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-11-24 16:10:34,108 [21800654]   WARN - .diagnostic.PerformanceWatcher - UI was frozen for 5214ms, details saved to /Users/elena/Library/Logs/JetBrains/IdeaIC2021.2/threadDumps-freeze-20211124-161033-IC-212.5457.46-5sec 
+2021-11-24 16:13:37,081 [21983627]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2021-11-24 16:13:37,083 [21983629]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile /Users/elena/IDEA 
+2021-11-24 16:13:37,235 [21983781]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 157 ms: 0 min 0sec 
+2021-11-24 16:13:37,238 [21983784]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2021-11-24 16:13:37,249 [21983795]   INFO - ij.execution.JavaExecutionUtil - Agent jars were copied to /Users/elena/Library/Caches/JetBrains/IdeaIC2021.2/captureAgent 
+2021-11-24 16:13:37,656 [21984202]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /Users/elena/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ IDEA CE.app/Contents/plugins/java/lib/jps-launcher.jar 
+2021-11-24 16:13:38,701 [21985247]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: An illegal reflective access operation has occurred 
+2021-11-24 16:13:38,701 [21985247]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil (file:/Users/elena/Library/Application%20Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/212.5457.46/IntelliJ%20IDEA%20CE.app/Contents/lib/util.jar) to method java.util.ResourceBundle.setParent(java.util.ResourceBundle) 
+2021-11-24 16:13:38,701 [21985247]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil 
+2021-11-24 16:13:38,701 [21985247]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations 
+2021-11-24 16:13:38,701 [21985247]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: WARNING: All illegal access operations will be denied in a future release 
+2021-11-24 16:13:42,293 [21988839]   WARN - .diagnostic.PerformanceWatcher - UI was frozen for 5043ms, details saved to /Users/elena/Library/Logs/JetBrains/IdeaIC2021.2/threadDumps-freeze-20211124-161342-IC-212.5457.46-5sec 
